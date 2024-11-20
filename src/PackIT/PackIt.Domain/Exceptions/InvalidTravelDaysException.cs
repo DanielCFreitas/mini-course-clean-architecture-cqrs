@@ -2,4 +2,4 @@
 
 namespace PackIt.Domain.Exceptions;
 
-public class InvalidTravelDaysException(ushort days) : PackItException($"Value {days} is invalid travel days.");
+public class InvalidTravelDaysException(ushort Days) : PackItException($"Value {Days} is invalid travel days.");

@@ -2,4 +2,4 @@
 
 namespace PackIt.Domain.Exceptions;
 
-public class InvalidTemperatureException(double value) : PackItException($"Value {value} is invalid temperature.");
+public class InvalidTemperatureException(double Value) : PackItException($"Value {Value} is invalid temperature.");

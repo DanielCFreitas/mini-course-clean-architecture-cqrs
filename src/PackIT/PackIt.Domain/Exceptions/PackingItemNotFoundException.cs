@@ -2,4 +2,4 @@
 
 namespace PackIt.Domain.Exceptions;
 
-public class PackingItemNotFoundException(string itemName) : PackItException($"Packing item {itemName} was not found.");
+public class PackingItemNotFoundException(string ItemName) : PackItException($"Packing item {ItemName} was not found.");
