@@ -21,6 +21,8 @@ public class PackingList : AggregateRoot<PackingListId>
         _items = items;
     }
 
+    private PackingList() { }
+
     internal PackingList(PackingListId id, PackingListName name, Localization localization)
     {
         Id = id;

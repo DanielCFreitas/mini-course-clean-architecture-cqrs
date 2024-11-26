@@ -4,7 +4,7 @@ namespace PackIt.Domain.ValueObjects;
 
 public record PackingListName 
 {
-    private string Value { get; }
+    public string Value { get; }
 
     public PackingListName(string value)
     {

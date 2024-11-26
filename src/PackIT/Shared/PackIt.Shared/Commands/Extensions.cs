@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using PackIt.Shared.Abstractions.Commands;
 using PackIt.Shared.Commands;
 
-namespace PackIt.Shared;
+namespace PackIt.Shared.Commands;
 
 public static class Extensions
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using PackIt.Domain.Factories;
 using PackIt.Domain.Policies;
-using PackIt.Shared;
+using PackIt.Shared.Commands;
 
 namespace PackIt.Application;
 
@@ -15,7 +15,7 @@ public static class Extensions
             .AddClasses(c => c.AssignableTo<IPackingItemsPolicy>())
             .AsImplementedInterfaces()
             .WithSingletonLifetime());
-        
+
         return services;
     }
 }
