@@ -19,7 +19,7 @@ public abstract class AggregateRoot<T>
         }
     }
 
-    public void Clear() => _events.Clear();
+    public void ClearEvents() => _events.Clear();
     
     protected void IncremeentVersion()
     {
