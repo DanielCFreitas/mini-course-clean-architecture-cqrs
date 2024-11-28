@@ -23,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\src\PackIT\PackIt.Application\PackIt.Application.csproj" />
       <ProjectReference Include="..\..\src\PackIT\PackIt.Domain\PackIt.Domain.csproj" />
     </ItemGroup>
 
